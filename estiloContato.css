@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+  }
+ body {
+     background-image: url(Imagens/Banner.jpg);
+     margin: 0px;
+     font-family: sans-serif, Helvetica, sans-serif;
+ }
+ header{
+     display: flex;
+     justify-content: center;
+     height: 125px;
+     background-color: #411111;
+ }
+ .Logo {
+     display: flex;
+     justify-content: center;
+ }
+ .menu {
+     margin: auto;
+     display: flex;
+     justify-content:center;
+     width: 500px;
+     font-size: 20px;
+     border-radius: 10px;
+ }
+ .menu a {
+     display: flex;
+     justify-content: center;
+     height: 30px;
+     margin-right: 30px;
+     color:white;
+     text-decoration: none;
+     transition: .5s;
+ }
+
+    /*Ações do Menu*/
+
+ .menu a:hover {
+    border-radius: 5px;
+    background-color: #5a1111;
+}
+
+    /* Endereço */
+
+ .Principal{
+    display: flex;
+}
+
+ .Localização{
+     position:relative;
+     top: 100px;
+     left: 50px;
+     width: 600px;
+     height: 400px;
+     font-size: 25px;
+     border:solid;
+     border-color: #411111 ;
+     background-color: #411111;
+     padding-left: 10px;
+     color: #EDE5B7;
+     border-radius: 16px;
+ }
+
+ /* Primeira sessão */
+
+ .contatos{
+     position: relative;
+     background-color: #411111;
+     border-radius: 16px;
+     top: 50px;
+     left: 100px;
+     width: 600px;
+     height: 350px;
+ }
+ .conteudo{
+    font-size: 25px;
+    padding-left: 8px;
+    color: #EDE5B7;
+ }
+
+ .redeSocial{
+     width: 200px;
+     display: flex;
+     justify-content: center;
+     transition: .5s;
+ }
+
+ .redeSocial a{
+     padding-right: 8px;
+     font-size: 27px;
+     text-decoration: none;
+     color: #EDE5B7;
+     border-radius: 5px;
+     transition: .5s;
+ }
+ .facebook{
+     border-radius: 50%;
+ }
+ .redeSocial:hover {
+    background-color: #5a1111;
+    border-radius: 50px;
+ }
+
+ .conteudo p{
+     padding-left: 25px;
+     padding-top: 40px;
+ }
